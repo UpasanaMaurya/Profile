@@ -1,0 +1,7 @@
+.topbar{
+    height: 70px;
+    width: 100%;
+    background-color: #15023a;
+    position: fixed;
+    top: 0px;
+}
