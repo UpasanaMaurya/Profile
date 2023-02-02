@@ -1,14 +1,16 @@
 import React from "react";
-//import logo from '../logo.png'
+import logo from "../logo.jfif";
+import './Navbar.css'
 const Navbar = () => {
   return (
     <>
+      
       <nav className="navbar navbar-expand-lg navbar-light bg-info">
-        <div className="container-fluid">
+        <div className="container">
           <a className="navbar-brand" href="#">
-            My portfolio
-            
+            <img className="logo" src={logo} alt="logo..." />
           </a>
+          
           <button
             className="navbar-toggler"
             type="button"
@@ -23,13 +25,33 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item me-1 ms-1">
-                <a className="nav-link active" aria-current="page" href="#">
-Upasana Maurya
+                <a className="nav-link " aria-current="page" href="#">
+                  Home
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  upasanamaurya01@gmail.com
+                  About me
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                 Services 
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  How Works
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Portfolio
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Contacts
                 </a>
               </li>
             </ul>

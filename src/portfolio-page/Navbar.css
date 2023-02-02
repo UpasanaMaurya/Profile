@@ -1,0 +1,34 @@
+:root{
+    --primary-white:#fff
+    --primary-orange:#f9ab00;
+}
+.logo{
+    width:7.25rem;
+}
+
+/* ***************menu link******************** */
+nav a.nav-link{
+    font-weight: 500;
+    letter-spacing: 0.037rem;
+}
+nav ul li{
+    text-transform: uppercase;
+}
+.navbar-nav > li > a{
+    color: var(--primary-white)!important;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    border-top: 0.1875rem solid #0dcaf0;; 
+}
+.navbar-brand{
+    max-width:17.25rem;
+    padding: 0 !important;
+    height:4rem;
+}
+.navbar-nav>li>a.active,.navbar-nav>li>a.active:focus{
+    border-top: 0.1875rem solid #d63384;
+    background-color: yellow;
+}
+.navbar-nav>li>a:hover{
+    border-top: 0.1875rem solid yellowgreen;
+}
