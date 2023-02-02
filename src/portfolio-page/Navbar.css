@@ -15,10 +15,11 @@ nav ul li{
     text-transform: uppercase;
 }
 .navbar-nav > li > a{
-    color: var(--primary-white)!important;
+    color: #f8f9fa!important;
     margin-left: 0.75rem;
     margin-right: 0.75rem;
-    border-top: 0.1875rem solid #0dcaf0;; 
+    /* border: 0.1875rem solid #343a40; */
+    background-color: 343a40;
 }
 .navbar-brand{
     max-width:17.25rem;
@@ -26,9 +27,10 @@ nav ul li{
     height:4rem;
 }
 .navbar-nav>li>a.active,.navbar-nav>li>a.active:focus{
-    border-top: 0.1875rem solid #d63384;
-    background-color: yellow;
+    border: 0.1875rem solid #9dd633 !important;
+    
 }
 .navbar-nav>li>a:hover{
-    border-top: 0.1875rem solid yellowgreen;
+    /* border: 0.1875rem solid  #210101; */
+    background-color:blue;
 }
